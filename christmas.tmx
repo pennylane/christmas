@@ -212,7 +212,7 @@
  </layer>
  <layer id="13" name="exit" width="24" height="12">
   <properties>
-   <property name="exitSceneUrl" value="entrance.json#frontStart"/>
+   <property name="exitSceneUrl" value="entrance.json"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
