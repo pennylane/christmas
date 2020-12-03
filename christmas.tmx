@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.4" tiledversion="2020.10.30" orientation="orthogonal" renderorder="right-down" width="24" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="16" nextobjectid="1">
  <editorsettings>
-  <export target="map.json" format="json"/>
+  <export target="map1.json" format="json"/>
  </editorsettings>
  <tileset firstgid="1" name="terrain_atlas" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
   <image source="tiles/terrain_atlas.png" trans="ff00ff" width="1024" height="1024"/>
@@ -250,7 +250,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-508,509,510,508,509,510,508,509,510,0,0,510,508,0,0,509,510,508,509,510,508,509,510,0,
+508,509,510,508,509,510,508,509,510,0,0,0,0,0,0,509,510,508,509,510,508,509,510,0,
 540,541,542,540,541,542,540,541,542,0,0,0,0,0,0,541,542,540,541,542,540,541,542,0,
 572,573,574,572,573,574,572,573,574,0,0,0,0,0,574,573,574,572,573,574,572,573,574,0,
 604,605,606,604,605,606,604,605,606,604,0,0,0,0,606,605,606,604,605,606,604,605,606,0,
