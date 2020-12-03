@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="2020.10.30" orientation="orthogonal" renderorder="right-down" width="24" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="1">
+<map version="1.4" tiledversion="2020.10.30" orientation="orthogonal" renderorder="right-down" width="24" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="16" nextobjectid="1">
  <editorsettings>
   <export target="map.json" format="json"/>
  </editorsettings>
@@ -175,6 +175,25 @@
 0,0,0,0,0,0,0,0,0,0,0,567,567,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
+ <layer id="15" name="frontDoorStart" width="24" height="12">
+  <properties>
+   <property name="startLayer" type="bool" value="true"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
  <layer id="7" name="grass" width="24" height="12">
   <data encoding="csv">
 872,872,872,872,872,872,872,872,872,872,872,872,872,872,872,872,872,872,872,872,872,872,872,872,
@@ -273,7 +292,7 @@
  </layer>
  <layer id="13" name="exit" width="24" height="12">
   <properties>
-   <property name="exitUrl" value="entrance.json"/>
+   <property name="exitUrl" value="entrance.json#frontDoorStart"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
