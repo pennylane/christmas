@@ -194,25 +194,6 @@
 0,0,0,0
 </data>
  </layer>
- <layer id="11" name="exit" width="4" height="12">
-  <properties>
-   <property name="exitUrl" value="map.json#outsideStart"/>
-  </properties>
-  <data encoding="csv">
-0,0,0,0,
-0,0,0,0,
-0,0,0,0,
-0,0,0,0,
-0,0,0,0,
-0,0,0,0,
-0,0,0,0,
-0,0,0,0,
-0,0,0,0,
-0,0,0,0,
-0,0,0,0,
-0,369,369,0
-</data>
- </layer>
  <layer id="5" name="floor" width="4" height="12">
   <data encoding="csv">
 1749,1749,1749,1749,
