@@ -407,7 +407,7 @@
    </properties>
   </tile>
  </tileset>
- <layer id="1" name="frontDoorStart" width="4" height="11">
+ <layer id="1" name="frontDoor" width="4" height="11">
   <properties>
    <property name="startLayer" type="bool" value="true"/>
   </properties>
@@ -460,7 +460,7 @@
  </layer>
  <layer id="6" name="exit" width="4" height="11">
   <properties>
-   <property name="exitSceneUrl" value="central.json#entranceStart"/>
+   <property name="exitSceneUrl" value="central.json#mainEntrance"/>
   </properties>
   <data encoding="csv">
 0,1547,1547,0,
@@ -478,7 +478,7 @@
  </layer>
  <layer id="7" name="exit" width="4" height="11">
   <properties>
-   <property name="exitSceneUrl" value="map.json#frontDoorStart"/>
+   <property name="exitSceneUrl" value="map.json#frontOutside"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,
