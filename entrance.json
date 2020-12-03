@@ -1,4 +1,12 @@
 { "compressionlevel":-1,
+ "editorsettings":
+    {
+     "export":
+        {
+         "format":"json",
+         "target":"entrance.json"
+        }
+    },
  "height":11,
  "infinite":false,
  "layers":[
@@ -28,9 +36,27 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"exitUrl",
+                 "name":"exitSceneUrl",
                  "type":"string",
                  "value":"central.json#entranceStart"
+                }],
+         "type":"tilelayer",
+         "visible":true,
+         "width":4,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1547, 1547, 0],
+         "height":11,
+         "id":7,
+         "name":"exit",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"exitSceneUrl",
+                 "type":"string",
+                 "value":"map.json#frontDoorStart"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -85,7 +111,7 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":7,
+ "nextlayerid":8,
  "nextobjectid":1,
  "orientation":"orthogonal",
  "renderorder":"right-down",
