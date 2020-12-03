@@ -62,7 +62,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":"entrance.json#frontStart"
+                 "value":"entrance.json"
                 }],
          "type":"tilelayer",
          "visible":true,

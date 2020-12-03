@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.4" tiledversion="2020.10.30" orientation="orthogonal" renderorder="right-down" width="4" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="1">
  <editorsettings>
-  <export target="hall.json" format="json"/>
+  <export target="entrance.json" format="json"/>
  </editorsettings>
  <tileset firstgid="1" name="base_out_atlas" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
   <image source="tiles/base_out_atlas.png" trans="ff00ff" width="1024" height="1024"/>
@@ -171,51 +171,13 @@
 0,0,0,0,
 0,0,0,0,
 0,0,0,0,
-0,459,459,0,
-0,0,0,0
-</data>
- </layer>
- <layer id="1" name="frontStart" width="4" height="12">
-  <properties>
-   <property name="startLayer" type="bool" value="true"/>
-  </properties>
-  <data encoding="csv">
-0,0,0,0,
-0,0,0,0,
-0,0,0,0,
-0,0,0,0,
-0,0,0,0,
-0,0,0,0,
-0,0,0,0,
-0,0,0,0,
-0,0,0,0,
-0,0,0,0,
 0,0,0,0,
 0,459,459,0
-</data>
- </layer>
- <layer id="2" name="centerStart" width="4" height="12">
-  <properties>
-   <property name="startLayer" type="bool" value="true"/>
-  </properties>
-  <data encoding="csv">
-0,0,0,0,
-0,0,0,0,
-0,0,0,0,
-0,459,459,0,
-0,0,0,0,
-0,0,0,0,
-0,0,0,0,
-0,0,0,0,
-0,0,0,0,
-0,0,0,0,
-0,0,0,0,
-0,0,0,0
 </data>
  </layer>
  <layer id="3" name="exit" width="4" height="12">
   <properties>
-   <property name="exitSceneUrl" value="central.json#mainStart"/>
+   <property name="exitSceneUrl" value="central.json"/>
   </properties>
   <data encoding="csv">
 0,459,459,0,
@@ -230,25 +192,6 @@
 0,0,0,0,
 0,0,0,0,
 0,0,0,0
-</data>
- </layer>
- <layer id="4" name="exit" width="4" height="12">
-  <properties>
-   <property name="exitSceneUrl" value="map.json#outsideStart"/>
-  </properties>
-  <data encoding="csv">
-0,0,0,0,
-0,0,0,0,
-0,0,0,0,
-0,0,0,0,
-0,0,0,0,
-0,0,0,0,
-0,0,0,0,
-0,0,0,0,
-0,0,0,0,
-0,0,0,0,
-0,0,0,0,
-0,459,459,0
 </data>
  </layer>
  <layer id="5" name="floor" width="4" height="12">
