@@ -60,9 +60,9 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"exitUrl",
+                 "name":"exitSceneUrl",
                  "type":"string",
-                 "value":"hall.json#frontStart"
+                 "value":"entrance.json#frontStart"
                 }],
          "type":"tilelayer",
          "visible":true,
