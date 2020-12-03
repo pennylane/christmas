@@ -175,7 +175,7 @@
 0,0,0,0,0,0,0,0,0,0,0,567,567,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="15" name="frontDoorStart" width="24" height="12">
+ <layer id="15" name="frontOutside" width="24" height="12">
   <properties>
    <property name="startLayer" type="bool" value="true"/>
   </properties>
@@ -212,7 +212,7 @@
  </layer>
  <layer id="13" name="exit" width="24" height="12">
   <properties>
-   <property name="exitUrl" value="entrance.json#frontDoorStart"/>
+   <property name="exitSceneUrl" value="entry.json#frontDoor"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
