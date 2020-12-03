@@ -177,7 +177,7 @@
  </layer>
  <layer id="3" name="exit" width="4" height="12">
   <properties>
-   <property name="exitSceneUrl" value="central.json"/>
+   <property name="exitUrl" value="central.json"/>
   </properties>
   <data encoding="csv">
 0,459,459,0,
@@ -196,7 +196,7 @@
  </layer>
  <layer id="11" name="exit" width="4" height="12">
   <properties>
-   <property name="exitSceneUrl" value="map.json#outsideStart"/>
+   <property name="exitUrl" value="map.json#outsideStart"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,
