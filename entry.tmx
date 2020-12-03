@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="2020.10.30" orientation="orthogonal" renderorder="right-down" width="4" height="11" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="1">
+<map version="1.4" tiledversion="2020.10.30" orientation="orthogonal" renderorder="right-down" width="4" height="11" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="1">
+ <editorsettings>
+  <export target="entrance.json" format="json"/>
+ </editorsettings>
  <tileset firstgid="1" name="terrain_atlas" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
   <image source="tiles/terrain_atlas.png" trans="ff00ff" width="1024" height="1024"/>
   <tile id="504">
@@ -427,7 +430,7 @@
  </layer>
  <layer id="6" name="exit" width="4" height="11">
   <properties>
-   <property name="exitUrl" value="central.json#entranceStart"/>
+   <property name="exitSceneUrl" value="central.json#entranceStart"/>
   </properties>
   <data encoding="csv">
 0,2571,2571,0,
@@ -441,6 +444,24 @@
 0,0,0,0,
 0,0,0,0,
 0,0,0,0
+</data>
+ </layer>
+ <layer id="7" name="exit" width="4" height="11">
+  <properties>
+   <property name="exitSceneUrl" value="map.json#frontDoorStart"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,1547,1547,0
 </data>
  </layer>
  <layer id="2" name="floor" width="4" height="11">
