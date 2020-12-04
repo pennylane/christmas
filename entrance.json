@@ -50,7 +50,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":"map.json#outside-start"
+                 "value":"map.json#outsidestart"
                 }],
          "type":"tilelayer",
          "visible":true,

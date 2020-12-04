@@ -196,7 +196,7 @@
  </layer>
  <layer id="12" name="exit" width="4" height="12">
   <properties>
-   <property name="exitSceneUrl" value="map.json#outside-start"/>
+   <property name="exitSceneUrl" value="map.json#outsidestart"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,
