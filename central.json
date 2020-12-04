@@ -86,7 +86,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":"central.json#startLeft"
+                 "value":"party.json"
                 }],
          "type":"tilelayer",
          "visible":true,

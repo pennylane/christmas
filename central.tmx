@@ -818,7 +818,7 @@
  </layer>
  <layer id="23" name="exitRight" width="24" height="24">
   <properties>
-   <property name="exitSceneUrl" value="central.json#startLeft"/>
+   <property name="exitSceneUrl" value="party.json"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
