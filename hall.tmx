@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="2020.10.30" orientation="orthogonal" renderorder="right-down" width="4" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="1">
+<map version="1.4" tiledversion="2020.10.30" orientation="orthogonal" renderorder="right-down" width="4" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="1">
  <editorsettings>
   <export target="entrance.json" format="json"/>
  </editorsettings>
@@ -194,6 +194,25 @@
 0,0,0,0
 </data>
  </layer>
+ <layer id="12" name="exit" width="4" height="12">
+  <properties>
+   <property name="exitSceneUrl" value="map.json#outside-start"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,1329,1329,0
+</data>
+ </layer>
  <layer id="5" name="floor" width="4" height="12">
   <data encoding="csv">
 1749,1749,1749,1749,
@@ -226,6 +245,7 @@
 710,0,0,711
 </data>
  </layer>
+ <objectgroup id="9" name="floorLayer"/>
  <layer id="7" name="decorations" width="4" height="12">
   <data encoding="csv">
 0,0,0,0,
@@ -242,5 +262,4 @@
 799,800,799,800
 </data>
  </layer>
- <objectgroup id="9" name="floorLayer"/>
 </map>

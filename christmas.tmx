@@ -175,7 +175,7 @@
 0,0,0,0,0,0,0,0,0,0,0,567,567,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="15" name="outsideStart" width="24" height="12">
+ <layer id="15" name="outside-start" width="24" height="12">
   <properties>
    <property name="startLayer" type="bool" value="true"/>
   </properties>

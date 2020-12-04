@@ -41,6 +41,24 @@
          "y":0
         }, 
         {
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1329, 1329, 0],
+         "height":12,
+         "id":12,
+         "name":"exit",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"exitSceneUrl",
+                 "type":"string",
+                 "value":"map.json#outside-start"
+                }],
+         "type":"tilelayer",
+         "visible":true,
+         "width":4,
+         "x":0,
+         "y":0
+        }, 
+        {
          "data":[1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749, 1749],
          "height":12,
          "id":5,
@@ -65,6 +83,17 @@
          "y":0
         }, 
         {
+         "draworder":"topdown",
+         "id":9,
+         "name":"floorLayer",
+         "objects":[],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
          "data":[0, 0, 0, 0, 735, 736, 735, 736, 767, 768, 767, 768, 799, 800, 799, 800, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 735, 736, 735, 736, 767, 768, 767, 768, 799, 800, 799, 800],
          "height":12,
          "id":7,
@@ -75,19 +104,8 @@
          "width":4,
          "x":0,
          "y":0
-        }, 
-        {
-         "draworder":"topdown",
-         "id":9,
-         "name":"floorLayer",
-         "objects":[],
-         "opacity":1,
-         "type":"objectgroup",
-         "visible":true,
-         "x":0,
-         "y":0
         }],
- "nextlayerid":12,
+ "nextlayerid":13,
  "nextobjectid":1,
  "orientation":"orthogonal",
  "renderorder":"right-down",
