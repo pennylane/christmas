@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="2020.10.30" orientation="orthogonal" renderorder="right-down" width="4" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="1">
+<map version="1.4" tiledversion="2020.10.30" orientation="orthogonal" renderorder="right-down" width="4" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="16" nextobjectid="1">
  <editorsettings>
   <export target="entrance.json" format="json"/>
  </editorsettings>
@@ -172,6 +172,25 @@
 0,0,0,0,
 0,0,0,0,
 0,459,459,0,
+0,0,0,0
+</data>
+ </layer>
+ <layer id="15" name="startCenter" width="4" height="12">
+  <properties>
+   <property name="startLayer" type="bool" value="true"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,459,459,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
 0,0,0,0
 </data>
  </layer>
