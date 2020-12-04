@@ -11,29 +11,11 @@
  "infinite":false,
  "layers":[
         {
-         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 459, 459, 0],
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 459, 459, 0, 0, 0, 0, 0],
          "height":12,
          "id":10,
          "name":"start",
          "opacity":1,
-         "type":"tilelayer",
-         "visible":true,
-         "width":4,
-         "x":0,
-         "y":0
-        }, 
-        {
-         "data":[0, 459, 459, 0, 0, 459, 459, 0, 0, 459, 459, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-         "height":12,
-         "id":3,
-         "name":"exitCenter",
-         "opacity":1,
-         "properties":[
-                {
-                 "name":"exitSceneUrl",
-                 "type":"string",
-                 "value":"central.json"
-                }],
          "type":"tilelayer",
          "visible":true,
          "width":4,
@@ -51,6 +33,24 @@
                  "name":"exitSceneUrl",
                  "type":"string",
                  "value":"map.json#startOutside"
+                }],
+         "type":"tilelayer",
+         "visible":true,
+         "width":4,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[0, 305, 305, 0, 0, 305, 305, 0, 0, 305, 305, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "height":12,
+         "id":14,
+         "name":"exitCenter",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"exitSceneUrl",
+                 "type":"string",
+                 "value":"central.json"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -105,7 +105,7 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":14,
+ "nextlayerid":15,
  "nextobjectid":1,
  "orientation":"orthogonal",
  "renderorder":"right-down",

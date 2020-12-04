@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.4" tiledversion="2020.10.30" orientation="orthogonal" renderorder="right-down" width="24" height="24" tilewidth="32" tileheight="32" infinite="0" nextlayerid="19" nextobjectid="1">
+ <editorsettings>
+  <export target="central.json" format="json"/>
+ </editorsettings>
  <tileset firstgid="1" name="terrain_atlas" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
   <image source="tiles/terrain_atlas.png" trans="ff00ff" width="1024" height="1024"/>
   <tile id="504">
@@ -717,7 +720,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,311,311,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,1483,1483,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
  <layer id="16" name="quiz" width="24" height="24">
