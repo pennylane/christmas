@@ -705,27 +705,6 @@
  <tileset firstgid="2305" name="christmas_tree" tilewidth="32" tileheight="32" tilecount="40" columns="8">
   <image source="tiles/christmas_tree.png" trans="ff00ff" width="256" height="160"/>
  </tileset>
- <tileset firstgid="2345" name="cert_picks" tilewidth="32" tileheight="32" tilecount="6" columns="0">
-  <grid orientation="orthogonal" width="1" height="1"/>
-  <tile id="0">
-   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/cert_safety/01_fire_extinguisher.png"/>
-  </tile>
-  <tile id="1">
-   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/cert_safety/04_emergency_exit_left_32x32-sheet.png"/>
-  </tile>
-  <tile id="2">
-   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/cert_safety/05_emergency_exit_right_32x32.png"/>
-  </tile>
-  <tile id="3">
-   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/cert_safety/17_rauchverbot.png"/>
-  </tile>
-  <tile id="4">
-   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/cert_safety/18_F-schild.png"/>
-  </tile>
-  <tile id="5">
-   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/cert_safety/19_Stopschild.png"/>
-  </tile>
- </tileset>
  <layer id="3" name="start" width="32" height="26">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

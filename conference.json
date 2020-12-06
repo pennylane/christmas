@@ -1430,59 +1430,6 @@
          "tileheight":32,
          "tilewidth":32,
          "transparentcolor":"#ff00ff"
-        }, 
-        {
-         "columns":0,
-         "firstgid":2345,
-         "grid":
-            {
-             "height":1,
-             "orientation":"orthogonal",
-             "width":1
-            },
-         "margin":0,
-         "name":"cert_picks",
-         "spacing":0,
-         "tilecount":6,
-         "tileheight":32,
-         "tiles":[
-                {
-                 "id":0,
-                 "image":"..\/tiles\/rc3_tiles\/imgs\/cert_safety\/01_fire_extinguisher.png",
-                 "imageheight":32,
-                 "imagewidth":32
-                }, 
-                {
-                 "id":1,
-                 "image":"..\/tiles\/rc3_tiles\/imgs\/cert_safety\/04_emergency_exit_left_32x32-sheet.png",
-                 "imageheight":32,
-                 "imagewidth":32
-                }, 
-                {
-                 "id":2,
-                 "image":"..\/tiles\/rc3_tiles\/imgs\/cert_safety\/05_emergency_exit_right_32x32.png",
-                 "imageheight":32,
-                 "imagewidth":32
-                }, 
-                {
-                 "id":3,
-                 "image":"..\/tiles\/rc3_tiles\/imgs\/cert_safety\/17_rauchverbot.png",
-                 "imageheight":32,
-                 "imagewidth":32
-                }, 
-                {
-                 "id":4,
-                 "image":"..\/tiles\/rc3_tiles\/imgs\/cert_safety\/18_F-schild.png",
-                 "imageheight":32,
-                 "imagewidth":32
-                }, 
-                {
-                 "id":5,
-                 "image":"..\/tiles\/rc3_tiles\/imgs\/cert_safety\/19_Stopschild.png",
-                 "imageheight":32,
-                 "imagewidth":32
-                }],
-         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
