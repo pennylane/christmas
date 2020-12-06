@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="2020.10.30" orientation="orthogonal" renderorder="right-down" width="32" height="26" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="1">
+<map version="1.4" tiledversion="2020.10.30" orientation="orthogonal" renderorder="right-down" width="32" height="26" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="1">
  <editorsettings>
   <export target="conference.json" format="json"/>
  </editorsettings>
@@ -398,6 +398,16 @@
     <property name="collides" type="bool" value="true"/>
    </properties>
   </tile>
+  <tile id="745">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="746">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="2049" name="tilesets_deviant_milkian_1" tilewidth="32" tileheight="32" tilecount="256" columns="16">
   <image source="tiles/tilesets_deviant_milkian_1.png" trans="ff00ff" width="512" height="512"/>
@@ -692,6 +702,468 @@
    </properties>
   </tile>
  </tileset>
+ <tileset firstgid="2305" name="christmas_tree" tilewidth="32" tileheight="32" tilecount="40" columns="8">
+  <image source="tiles/christmas_tree.png" trans="ff00ff" width="256" height="160"/>
+ </tileset>
+ <tileset firstgid="2345" name="rc3_cert" tilewidth="64" tileheight="32" tilecount="26" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/cert_safety/01_fire_extinguisher.png"/>
+  </tile>
+  <tile id="1">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/cert_safety/02_kfz_verbandskasten_32x32.png"/>
+  </tile>
+  <tile id="2">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/cert_safety/03_eh-wandschrank_32x32.png"/>
+  </tile>
+  <tile id="3">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/cert_safety/04_emergency_exit_left_32x32-sheet.png"/>
+  </tile>
+  <tile id="4">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/cert_safety/05_emergency_exit_right_32x32.png"/>
+  </tile>
+  <tile id="5">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/cert_safety/06_cert_1818_32x32.png"/>
+  </tile>
+  <tile id="6">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/cert_safety/07_barrier_tape_mid_32x32.png"/>
+  </tile>
+  <tile id="7">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/cert_safety/08_barrier_tape_side_32x32-sheet.png"/>
+  </tile>
+  <tile id="8">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/cert_safety/09_caution_tape_mid_32x32.png"/>
+  </tile>
+  <tile id="9">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/cert_safety/10_caution_tape_side_32x32.png"/>
+  </tile>
+  <tile id="10">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/cert_safety/11_safety_cone.png"/>
+  </tile>
+  <tile id="11">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/cert_safety/12_löschdecke_32x32.png"/>
+  </tile>
+  <tile id="12">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/cert_safety/13_barrier_tape_mid_corner_32x32-sheet.png"/>
+  </tile>
+  <tile id="13">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/cert_safety/14_caution_tape_mid_corner_32x32-sheet.png"/>
+  </tile>
+  <tile id="14">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/cert_safety/15_caution_tape_arrow_32x32-sheet.png"/>
+  </tile>
+  <tile id="15">
+   <image width="64" height="32" source="../tiles/rc3_tiles/imgs/cert_safety/16_tape_pole.png"/>
+  </tile>
+  <tile id="16">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/cert_safety/17_rauchverbot.png"/>
+  </tile>
+  <tile id="17">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/cert_safety/18_F-schild.png"/>
+  </tile>
+  <tile id="18">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/cert_safety/19_Stopschild.png"/>
+  </tile>
+  <tile id="19">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/c3gelb/01_disinfection_dispenser_32x32.png"/>
+  </tile>
+  <tile id="20">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/c3gelb/02_soap_dispenser_32x32.png"/>
+  </tile>
+  <tile id="21">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/c3gelb/03_dispenser_pole_32x32.png"/>
+  </tile>
+  <tile id="22">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/c3gelb/04_caution_beware_of_germs_32x32.png"/>
+  </tile>
+  <tile id="23">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/c3gelb/05_caution_biohazard.png"/>
+  </tile>
+  <tile id="24">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/c3gelb/06_wash_your_hands_32x32.png"/>
+  </tile>
+  <tile id="25">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/c3gelb/07_wear_your_mask_32x32.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="2371" name="rc3_foodndrinks" tilewidth="128" tileheight="96" tilecount="16" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/food_and_drinks/01_mate.png"/>
+  </tile>
+  <tile id="1">
+   <image width="32" height="96" source="../tiles/rc3_tiles/imgs/food_and_drinks/02_mate_crates_1.png"/>
+  </tile>
+  <tile id="2">
+   <image width="32" height="96" source="../tiles/rc3_tiles/imgs/food_and_drinks/03_mate_crates_2.png"/>
+  </tile>
+  <tile id="3">
+   <image width="64" height="64" source="../tiles/rc3_tiles/imgs/food_and_drinks/05_mate_bottles_full.png"/>
+  </tile>
+  <tile id="4">
+   <image width="64" height="64" source="../tiles/rc3_tiles/imgs/food_and_drinks/06_mate_bottles.png"/>
+  </tile>
+  <tile id="5">
+   <image width="64" height="64" source="../tiles/rc3_tiles/imgs/food_and_drinks/07_right_mate_bottles_flora.png"/>
+  </tile>
+  <tile id="6">
+   <image width="64" height="64" source="../tiles/rc3_tiles/imgs/food_and_drinks/08_right_mate_bottles_flora_full.png"/>
+  </tile>
+  <tile id="7">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/food_and_drinks/10_coffee.png"/>
+  </tile>
+  <tile id="8">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/food_and_drinks/11_coffee2.png"/>
+  </tile>
+  <tile id="9">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/food_and_drinks/12_Donuts.png"/>
+  </tile>
+  <tile id="10">
+   <image width="64" height="64" source="../tiles/rc3_tiles/imgs/food_and_drinks/15_Pizza.png"/>
+  </tile>
+  <tile id="11">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/food_and_drinks/16_Pizza_klein.png"/>
+  </tile>
+  <tile id="12">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/food_and_drinks/17_kaffetasse1.png"/>
+  </tile>
+  <tile id="13">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/food_and_drinks/18_tablett.png"/>
+  </tile>
+  <tile id="14">
+   <image width="64" height="64" source="../tiles/rc3_tiles/imgs/food_and_drinks/19_getraenkeautomat.png"/>
+  </tile>
+  <tile id="15">
+   <image width="128" height="64" source="../tiles/rc3_tiles/imgs/food_and_drinks/20_premium_crate.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="2387" name="rc3_furniture" tilewidth="128" tileheight="128" tilecount="44" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="32" height="64" source="../tiles/rc3_tiles/imgs/furniture/01_bank.png"/>
+  </tile>
+  <tile id="1">
+   <image width="128" height="32" source="../tiles/rc3_tiles/imgs/furniture/02_chairs_grey.png"/>
+  </tile>
+  <tile id="2">
+   <image width="128" height="32" source="../tiles/rc3_tiles/imgs/furniture/03_chairs_blue.png"/>
+  </tile>
+  <tile id="3">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/furniture/04_dustbin.png"/>
+  </tile>
+  <tile id="4">
+   <image width="128" height="32" source="../tiles/rc3_tiles/imgs/furniture/05_chairs_purple.png"/>
+  </tile>
+  <tile id="5">
+   <image width="128" height="32" source="../tiles/rc3_tiles/imgs/furniture/06_chairs_turqoise.png"/>
+  </tile>
+  <tile id="6">
+   <image width="32" height="64" source="../tiles/rc3_tiles/imgs/furniture/07_toilette.png"/>
+  </tile>
+  <tile id="7">
+   <image width="32" height="96" source="../tiles/rc3_tiles/imgs/furniture/08_waschbecken.png"/>
+  </tile>
+  <tile id="8">
+   <image width="64" height="64" source="../tiles/rc3_tiles/imgs/furniture/09_workstations.png"/>
+  </tile>
+  <tile id="9">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/furniture/10_paperwork.png"/>
+  </tile>
+  <tile id="10">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/furniture/11_telephone_sideways.png"/>
+  </tile>
+  <tile id="11">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/furniture/12_telephone_upright.png"/>
+  </tile>
+  <tile id="12">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/furniture/13_uhr_gruen.png"/>
+  </tile>
+  <tile id="13">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/furniture/14_uhr_lila.png"/>
+  </tile>
+  <tile id="14">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/furniture/15_uhr_tuerkis.png"/>
+  </tile>
+  <tile id="15">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/furniture/16_uhr_weiss.png"/>
+  </tile>
+  <tile id="16">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/furniture/17_muelleimer1.png"/>
+  </tile>
+  <tile id="17">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/furniture/18_muelleimer2.png"/>
+  </tile>
+  <tile id="18">
+   <image width="64" height="64" source="../tiles/rc3_tiles/imgs/furniture/19_desk1.png"/>
+  </tile>
+  <tile id="19">
+   <image width="64" height="64" source="../tiles/rc3_tiles/imgs/furniture/20_desk2.png"/>
+  </tile>
+  <tile id="20">
+   <image width="96" height="64" source="../tiles/rc3_tiles/imgs/furniture/21_seziertisch.png"/>
+  </tile>
+  <tile id="21">
+   <image width="96" height="96" source="../tiles/rc3_tiles/imgs/furniture/22_tisch_weiss_2.png"/>
+  </tile>
+  <tile id="22">
+   <image width="96" height="64" source="../tiles/rc3_tiles/imgs/furniture/23_tisch_weiss_1.png"/>
+  </tile>
+  <tile id="23">
+   <image width="64" height="64" source="../tiles/rc3_tiles/imgs/furniture/24_pinboard_gr_1.png"/>
+  </tile>
+  <tile id="24">
+   <image width="64" height="32" source="../tiles/rc3_tiles/imgs/furniture/25_pinboard1.png"/>
+  </tile>
+  <tile id="25">
+   <image width="64" height="64" source="../tiles/rc3_tiles/imgs/furniture/26_pinboard_XL_2.png"/>
+  </tile>
+  <tile id="26">
+   <image width="64" height="32" source="../tiles/rc3_tiles/imgs/furniture/27_pinboard_S_2.png"/>
+  </tile>
+  <tile id="27">
+   <image width="64" height="128" source="../tiles/rc3_tiles/imgs/furniture/28_bed.png"/>
+  </tile>
+  <tile id="28">
+   <image width="32" height="96" source="../tiles/rc3_tiles/imgs/furniture/29_kuelschrank1.png"/>
+  </tile>
+  <tile id="29">
+   <image width="64" height="64" source="../tiles/rc3_tiles/imgs/furniture/30_safe.png"/>
+  </tile>
+  <tile id="30">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/furniture/31_safedoor.png"/>
+  </tile>
+  <tile id="31">
+   <image width="64" height="64" source="../tiles/rc3_tiles/imgs/furniture/32_desk_brown_horizontal_1.png"/>
+  </tile>
+  <tile id="32">
+   <image width="64" height="64" source="../tiles/rc3_tiles/imgs/furniture/32_desk_brown_horizontal_2.png"/>
+  </tile>
+  <tile id="33">
+   <image width="96" height="64" source="../tiles/rc3_tiles/imgs/furniture/33_desk_brown_horizontal_wide_1.png"/>
+  </tile>
+  <tile id="34">
+   <image width="96" height="64" source="../tiles/rc3_tiles/imgs/furniture/33_desk_brown_horizontal_wide_2.png"/>
+  </tile>
+  <tile id="35">
+   <image width="32" height="96" source="../tiles/rc3_tiles/imgs/furniture/34_desk_brown_vertical_1.png"/>
+  </tile>
+  <tile id="36">
+   <image width="32" height="96" source="../tiles/rc3_tiles/imgs/furniture/34_desk_brown_vertical_2.png"/>
+  </tile>
+  <tile id="37">
+   <image width="64" height="64" source="../tiles/rc3_tiles/imgs/furniture/35_kuehlfaecher.png"/>
+  </tile>
+  <tile id="38">
+   <image width="32" height="96" source="../tiles/rc3_tiles/imgs/furniture/36_desk_vertical_1.png"/>
+  </tile>
+  <tile id="39">
+   <image width="32" height="96" source="../tiles/rc3_tiles/imgs/furniture/37_desk_vertical_2.png"/>
+  </tile>
+  <tile id="40">
+   <image width="32" height="128" source="../tiles/rc3_tiles/imgs/furniture/38_schrank_vertikal1.png"/>
+  </tile>
+  <tile id="41">
+   <image width="64" height="96" source="../tiles/rc3_tiles/imgs/furniture/39_schrank1.png"/>
+  </tile>
+  <tile id="42">
+   <image width="64" height="96" source="../tiles/rc3_tiles/imgs/furniture/40_schrank2.png"/>
+  </tile>
+  <tile id="43">
+   <image width="64" height="96" source="../tiles/rc3_tiles/imgs/furniture/41_schrank3.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="2431" name="rc3_misc" tilewidth="128" tileheight="128" tilecount="63" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/01_beamer_32x32.png"/>
+  </tile>
+  <tile id="1">
+   <image width="32" height="96" source="../tiles/rc3_tiles/imgs/misc/02_canvas.png"/>
+  </tile>
+  <tile id="2">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/03_latop_sticker_32x32t.png"/>
+  </tile>
+  <tile id="3">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/05_sitzsack.png"/>
+  </tile>
+  <tile id="4">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/06_waffeleisen_32x32.png"/>
+  </tile>
+  <tile id="5">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/07_beamer_lightcone.png"/>
+  </tile>
+  <tile id="6">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/08_verdunklung.png"/>
+  </tile>
+  <tile id="7">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/09_rupert_klein.png"/>
+  </tile>
+  <tile id="8">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/10_rupert_schwimmt_klein.png"/>
+  </tile>
+  <tile id="9">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/13_winkekatze.png"/>
+  </tile>
+  <tile id="10">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/14_gigaset_dect_base.png"/>
+  </tile>
+  <tile id="11">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/15_gigaset_dect.png"/>
+  </tile>
+  <tile id="12">
+   <image width="64" height="64" source="../tiles/rc3_tiles/imgs/misc/16_lab_table.png"/>
+  </tile>
+  <tile id="13">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/17_rucksack_freigestellt_kl.png"/>
+  </tile>
+  <tile id="14">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/18_rucksack2_freigestellt_kl.png"/>
+  </tile>
+  <tile id="15">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/19_flauschehorn.png"/>
+  </tile>
+  <tile id="16">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/22_donotenter.png"/>
+  </tile>
+  <tile id="17">
+   <image width="64" height="128" source="../tiles/rc3_tiles/imgs/misc/23_Fairydust.png"/>
+  </tile>
+  <tile id="18">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/24_beamer_right_32x32.png"/>
+  </tile>
+  <tile id="19">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/25_beamer_lightcone_right.png"/>
+  </tile>
+  <tile id="20">
+   <image width="96" height="64" source="../tiles/rc3_tiles/imgs/misc/26_makpaks.png"/>
+  </tile>
+  <tile id="21">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/27_winkekatze_anim1.png"/>
+  </tile>
+  <tile id="22">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/28_winkekatze_anim2.png"/>
+  </tile>
+  <tile id="23">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/29_winkekatze_anim3.png"/>
+  </tile>
+  <tile id="24">
+   <image width="96" height="64" source="../tiles/rc3_tiles/imgs/misc/30_Neuland.png"/>
+  </tile>
+  <tile id="25">
+   <image width="64" height="64" source="../tiles/rc3_tiles/imgs/misc/31_vorhang_blau.png"/>
+  </tile>
+  <tile id="26">
+   <image width="64" height="64" source="../tiles/rc3_tiles/imgs/misc/32_vorhang_blau_lang.png"/>
+  </tile>
+  <tile id="27">
+   <image width="64" height="64" source="../tiles/rc3_tiles/imgs/misc/33_vorhang_lila.png"/>
+  </tile>
+  <tile id="28">
+   <image width="64" height="64" source="../tiles/rc3_tiles/imgs/misc/34_vorhang_lila_lang.png"/>
+  </tile>
+  <tile id="29">
+   <image width="32" height="96" source="../tiles/rc3_tiles/imgs/misc/35_pflanze1.png"/>
+  </tile>
+  <tile id="30">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/36_Sitzsack_00.png"/>
+  </tile>
+  <tile id="31">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/37_Sitzsack_01.png"/>
+  </tile>
+  <tile id="32">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/38_Sitzsack_02.png"/>
+  </tile>
+  <tile id="33">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/39_Sitzsack_03.png"/>
+  </tile>
+  <tile id="34">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/40_Sitzsack_04.png"/>
+  </tile>
+  <tile id="35">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/41_Sitzsack_05.png"/>
+  </tile>
+  <tile id="36">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/42_Sitzsack_06.png"/>
+  </tile>
+  <tile id="37">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/43_Sitzsack_07.png"/>
+  </tile>
+  <tile id="38">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/44_Sitzsack_08.png"/>
+  </tile>
+  <tile id="39">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/45_Sitzsack_09.png"/>
+  </tile>
+  <tile id="40">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/46_Sitzsack_10.png"/>
+  </tile>
+  <tile id="41">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/47_Sitzsack_11.png"/>
+  </tile>
+  <tile id="42">
+   <image width="64" height="32" source="../tiles/rc3_tiles/imgs/misc/48_Neuland2.png"/>
+  </tile>
+  <tile id="43">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/49_Wasserrose.png"/>
+  </tile>
+  <tile id="44">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/50_broken_glass_2.png"/>
+  </tile>
+  <tile id="45">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/51_broken_mate.png"/>
+  </tile>
+  <tile id="46">
+   <image width="64" height="64" source="../tiles/rc3_tiles/imgs/misc/52_wallscreen1.png"/>
+  </tile>
+  <tile id="47">
+   <image width="64" height="64" source="../tiles/rc3_tiles/imgs/misc/53_wallscreen2.png"/>
+  </tile>
+  <tile id="48">
+   <image width="64" height="64" source="../tiles/rc3_tiles/imgs/misc/54_wallscreen3.png"/>
+  </tile>
+  <tile id="49">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/55_hefte.png"/>
+  </tile>
+  <tile id="50">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/56_wandbild.png"/>
+  </tile>
+  <tile id="51">
+   <image width="128" height="96" source="../tiles/rc3_tiles/imgs/misc/57_zettelfoo.png"/>
+  </tile>
+  <tile id="52">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/58_sonnenbrille.png"/>
+  </tile>
+  <tile id="53">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/59_socke.png"/>
+  </tile>
+  <tile id="54">
+   <image width="128" height="64" source="../tiles/rc3_tiles/imgs/misc/60_kissen.png"/>
+  </tile>
+  <tile id="55">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/61_calendar.png"/>
+  </tile>
+  <tile id="56">
+   <image width="64" height="32" source="../tiles/rc3_tiles/imgs/misc/62_corpse.png"/>
+  </tile>
+  <tile id="57">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/63_Laptop.png"/>
+  </tile>
+  <tile id="58">
+   <image width="32" height="64" source="../tiles/rc3_tiles/imgs/misc/64_tischdokumente_1.png"/>
+  </tile>
+  <tile id="59">
+   <image width="32" height="64" source="../tiles/rc3_tiles/imgs/misc/65_tischdokumente_2.png"/>
+  </tile>
+  <tile id="60">
+   <image width="64" height="64" source="../tiles/rc3_tiles/imgs/misc/66_pc.png"/>
+  </tile>
+  <tile id="61">
+   <image width="32" height="32" source="../tiles/rc3_tiles/imgs/misc/67_tastatur.png"/>
+  </tile>
+  <tile id="62">
+   <image width="32" height="96" source="../tiles/rc3_tiles/imgs/misc/68_topfpflanze2.png"/>
+  </tile>
+ </tileset>
  <layer id="3" name="start" width="32" height="26">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -864,13 +1336,73 @@
 0,0,0,0,0,0,0,0,0,0,2161,2161,2161,0,2161,2161,2161,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,2161,2161,2161,0,2161,2161,2161,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,2177,2147485825,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,2177,2147485825,0,0,0,0,0,0,0,2161,2161,2161,0,2161,2161,2161,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,2193,2147485841,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,2209,2147485857,0,0,0,0,0,0,0,2161,2161,2161,0,2161,2161,2161,0,0,0,0,0,0,0,0,0,0,2430,0,2430,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2422,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,2178,2179,2180,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,2194,2195,2196,0,0,0,0,0,0,0,0,0,0,0,2422,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,2161,2161,2161,0,2161,2161,2161,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2177,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,2161,2161,2161,0,2161,2161,2161,0,0,0,0,0,0,0,0,0,2193,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2177,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,2178,2179,2180,0,0,0,0,0,0,0,0,0,0,0,2193,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,2194,2195,2196,0,0,0,0,0,0,0,0,0,0,0,2209,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="11" name="trees" width="32" height="26">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,2306,2307,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+2313,2314,2315,2316,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+2321,2322,2323,2324,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+2329,2330,2331,2332,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+2337,2338,2339,2340,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,2306,2307,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+2313,2314,2315,2316,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+2321,2322,2323,2324,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+2329,2330,2331,2332,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+2337,2338,2339,2340,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="12" name="decor" width="32" height="26">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,2482,0,0,0,0,0,0,2482,0,0,0,0,0,0,2482,0,0,0,0,0,0,2482,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2232,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2349,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2362,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2345,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,2380,2380,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,2380,2380,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2247,0,0,0,0,2213,
+0,2378,2378,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2263,0,0,0,0,2229,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2383,0,0,0,0,2245,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2378,0,0,0,0,2390,
+0,0,0,0,0,0,0,0,0,0,0,0,0,2396,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
@@ -896,7 +1428,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,2147486026,2147486026,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
