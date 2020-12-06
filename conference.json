@@ -1801,6 +1801,20 @@
          "tileheight":32,
          "tilewidth":32,
          "transparentcolor":"#ff00ff"
+        }, 
+        {
+         "columns":16,
+         "firstgid":5682,
+         "image":"..\/tiles\/rc3_tiles\/imgs\/tilesheets\/food_and_drinks.png",
+         "imageheight":2048,
+         "imagewidth":512,
+         "margin":0,
+         "name":"food_and_drinks",
+         "spacing":0,
+         "tilecount":1024,
+         "tileheight":32,
+         "tilewidth":32,
+         "transparentcolor":"#ff00ff"
         }],
  "tilewidth":32,
  "type":"map",
