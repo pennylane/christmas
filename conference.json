@@ -1697,7 +1697,7 @@
         {
          "columns":16,
          "firstgid":5682,
-         "image":"..\/tiles\/rc3_tiles\/imgs\/tilesheets\/food_and_drinks.png",
+         "image":"tiles\/food_and_drinks.png",
          "imageheight":2048,
          "imagewidth":512,
          "margin":0,
