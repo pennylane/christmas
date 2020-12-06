@@ -800,9 +800,6 @@
  <tileset firstgid="5426" name="AceSet-Hospital" tilewidth="32" tileheight="32" tilecount="256" columns="16">
   <image source="tiles/AceSet-Hospital.png" trans="ff00ff" width="512" height="512"/>
  </tileset>
- <tileset firstgid="5682" name="food_and_drinks" tilewidth="32" tileheight="32" tilecount="1024" columns="16">
-  <image source="../tiles/rc3_tiles/imgs/tilesheets/food_and_drinks.png" trans="ff00ff" width="512" height="2048"/>
- </tileset>
  <layer id="3" name="start" width="33" height="29">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
