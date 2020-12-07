@@ -294,7 +294,7 @@
  </layer>
  <layer id="17" name="exitBackyard" width="24" height="12">
   <properties>
-   <property name="exitSceneUrl" value="dungeon.json"/>
+   <property name="exitSceneUrl" value="backyard.json"/>
   </properties>
   <data encoding="csv">
 2049,2049,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
