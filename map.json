@@ -80,7 +80,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":"dungeon.json"
+                 "value":"backyard.json"
                 }],
          "type":"tilelayer",
          "visible":true,
