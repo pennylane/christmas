@@ -171,7 +171,9 @@
  <tileset firstgid="1482" name="christmas_tree_w_snow" tilewidth="32" tileheight="32" tilecount="40" columns="8">
   <image source="tiles/christmas_tree_w_snow.png" trans="ff00ff" width="256" height="160"/>
  </tileset>
- <tileset firstgid="1522" source="tiles/roguelikeHoliday_magenta.tsx"/>
+ <tileset firstgid="1522" name="roguelikeHoliday_magenta" tilewidth="32" tileheight="32" tilecount="12" columns="6">
+  <image source="tiles/roguelikeHoliday_magenta.png" trans="ff00ff" width="203" height="67"/>
+ </tileset>
  <layer id="16" name="exit" width="32" height="32">
   <properties>
    <property name="exitSceneUrl" value="dungeon.json#startEnd"/>
