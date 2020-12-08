@@ -886,7 +886,7 @@
  </layer>
  <layer id="21" name="audio" width="32" height="32">
   <properties>
-   <property name="playAudio" value="https://1000christmashits.stream.laut.fm/1000christmashits?t302=2020-12-08_21-21-22&amp;uuid=5d8bb86d-36f3-4e6e-977c-1c351f02d98c"/>
+   <property name="playAudio" value="xmas_radio.m3u"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

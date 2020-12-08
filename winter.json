@@ -50,7 +50,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"https:\/\/1000christmashits.stream.laut.fm\/1000christmashits?t302=2020-12-08_21-21-22&uuid=5d8bb86d-36f3-4e6e-977c-1c351f02d98c"
+                 "value":"xmas_radio.m3u"
                 }],
          "type":"tilelayer",
          "visible":true,
