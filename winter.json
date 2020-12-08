@@ -558,8 +558,18 @@
          "transparentcolor":"#ff00ff"
         }, 
         {
+         "columns":6,
          "firstgid":1522,
-         "source":"tiles\/roguelikeHoliday_magenta.tsx"
+         "image":"tiles\/roguelikeHoliday_magenta.png",
+         "imageheight":67,
+         "imagewidth":203,
+         "margin":0,
+         "name":"roguelikeHoliday_magenta",
+         "spacing":0,
+         "tilecount":12,
+         "tileheight":32,
+         "tilewidth":32,
+         "transparentcolor":"#ff00ff"
         }],
  "tilewidth":32,
  "type":"map",
