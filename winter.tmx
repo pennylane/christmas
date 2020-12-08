@@ -886,7 +886,7 @@
  </layer>
  <layer id="21" name="audio" width="32" height="32">
   <properties>
-   <property name="playAudio" value="https://www.radiosantaclaus.com/live"/>
+   <property name="openWebsite" value="https://www.radiosantaclaus.com/live"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
