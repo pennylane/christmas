@@ -933,6 +933,9 @@
 </data>
  </layer>
  <layer id="9" name="startUp" width="12" height="12">
+  <properties>
+   <property name="startLayer" type="bool" value="true"/>
+  </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,
